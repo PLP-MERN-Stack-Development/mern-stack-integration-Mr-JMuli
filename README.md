@@ -13,7 +13,7 @@ Carb0n Code is a full-stack climate monitoring system built with the MERN stack.
 - React Router  
 - Context API  
 - Axios  
-This assignment focuses on building a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that demonstrates seamless integration between front-end and back-end components.
+This project focuses on building a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that demonstrates seamless integration between front-end and back-end components.
 
 ### **Backend**
 - Node.js  
