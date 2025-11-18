@@ -1,20 +1,60 @@
-# MERN Stack Integration Assignment
+# CARB0N COD3
+### Climate Monitoring MERN Stack Application
 
-This assignment focuses on building a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that demonstrates seamless integration between front-end and back-end components.
+Carb0n Code is a full-stack climate monitoring system built with the MERN stack. It enables users to record, visualize, categorize, and manage climate-related data such as temperature changes, emissions, humidity, and environmental alerts. This project demonstrates seamless front-end and back-end integration, full REST API design, and advanced MERN stack features.
 
-## Assignment Overview
+---
 
-You will build a blog application with the following features:
-1. RESTful API with Express.js and MongoDB
-2. React front-end with component architecture
-3. Full CRUD functionality for blog posts
-4. User authentication and authorization
-5. Advanced features like image uploads and comments
+##  Tech Stack
+
+### **Frontend**
+- React.js  
+- Vite  
+- React Router  
+- Context API  
+- Axios  
+This project focuses on building a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that demonstrates seamless integration between front-end and back-end components.
+
+### **Backend**
+- Node.js  
+- Express.js  
+- MongoDB  
+- Mongoose  
+
+### **Other Tools**
+- JSON Web Tokens (JWT)  
+- Multer (image uploads)  
+- express-validator  
+- dotenv  
+
+---
+## Features
+
+### **Core Features**
+- Submit climate posts (CRUD)
+- Categorize climate readings or events
+- REST API with proper routing and error handling
+- Mongoose models for posts and categories
+- Form validation (client + server)
+- Global state management using React Context API
+- Custom hook for API calls
+
+### **Advanced Features**
+- User authentication (register, login, protected routes)
+- Image upload for climate reports
+- Search and filtering (category, keywords, dates)
+- Pagination for posts list
+- Comments for climate observations
+- Optimistic UI updates
+- Loading and error handling states
+
+---
+
 
 ## Project Structure
 
 ```
-mern-blog/
+CARB0N COD3/
 ├── client/                 # React front-end
 │   ├── public/             # Static files
 │   ├── src/                # React source code
@@ -37,42 +77,42 @@ mern-blog/
 └── README.md               # Project documentation
 ```
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Follow the setup instructions in the `Week4-Assignment.md` file
-4. Complete the tasks outlined in the assignment
+## API Documentation
 
-## Files Included
+### **Posts API**
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/posts` | Fetch all posts |
+| GET | `/api/posts/:id` | Fetch a single post |
+| POST | `/api/posts` | Create a new post |
+| PUT | `/api/posts/:id` | Update a post |
+| DELETE | `/api/posts/:id` | Delete a post |
 
-- `Week4-Assignment.md`: Detailed assignment instructions
-- Starter code for both client and server:
-  - Basic project structure
-  - Configuration files
-  - Sample models and components
+### **Categories API**
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/categories` | Get all categories |
+| POST | `/api/categories` | Create a new category |
 
-## Requirements
+### **Auth API**
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/auth/register` | Register new user |
+| POST | `/api/auth/login` | Authenticate user |
+| GET | `/api/auth/me` | Fetch logged-in user profile |
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git
+---
 
-## Submission
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+### **Requirements**
+- Node.js v18+
+- MongoDB (local or cloud/Atlas)
 
-1. Complete both the client and server portions of the application
-2. Implement all required API endpoints
-3. Create the necessary React components and hooks
-4. Document your API and setup process in the README.md
-5. Include screenshots of your working application
+---
+## Author
 
-## Resources
+Carb0n Code – Climate Monitoring MERN Stack Application
+Developed by John Muli
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [Mongoose Documentation](https://mongoosejs.com/docs/) 
