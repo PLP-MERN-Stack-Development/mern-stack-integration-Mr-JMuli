@@ -114,7 +114,6 @@ CARB0N COD3/
 
 ---
 
-## Setup Instructions
 
 ### **Requirements**
 - Node.js v18+
