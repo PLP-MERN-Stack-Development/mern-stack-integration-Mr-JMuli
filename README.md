@@ -51,15 +51,6 @@ This assignment focuses on building a full-stack MERN (MongoDB, Express.js, Reac
 ---
 
 
-## Assignment Overview
-
-You will build a blog application with the following features:
-1. RESTful API with Express.js and MongoDB
-2. React front-end with component architecture
-3. Full CRUD functionality for blog posts
-4. User authentication and authorization
-5. Advanced features like image uploads and comments
-
 ## Project Structure
 
 ```
